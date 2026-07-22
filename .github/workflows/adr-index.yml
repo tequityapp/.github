@@ -1,0 +1,25 @@
+name: adr-index
+
+# Fails a PR if the generated ADR index table in docs/decisions/README.md is
+# stale. Add an ADR directory and run scripts/gen-adr-index.sh — never hand-edit
+# the table between the BEGIN/END markers.
+
+on:
+  pull_request:
+    paths:
+      - 'docs/decisions/**'
+  push:
+    branches: [main]
+    paths:
+      - 'docs/decisions/**'
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check the ADR index is up to date
+        run: bash scripts/gen-adr-index.sh --check

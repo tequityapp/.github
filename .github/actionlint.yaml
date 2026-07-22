@@ -1,0 +1,6 @@
+# actionlint config.
+#
+# This org's workflows currently route on GitHub-hosted runners only, so no
+# custom self-hosted runner labels are declared. If Tequity adopts self-hosted
+# runners (see SETUP.md), list their labels under `self-hosted-runner: labels:`
+# here so actionlint's runner-label check doesn't false-positive on them.
