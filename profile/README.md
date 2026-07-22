@@ -8,7 +8,7 @@
   Structure mirrors verjson/.github/profile/README.md.
 -->
 <div align="center">
-  <img src="https://tequity.app/lovable-uploads/f3543bb6-616d-46d6-8edc-c5ad97a576ec.png" alt="Tequity logo" width="96" height="96" />
+  <img src="./assets/tequity.png" alt="Tequity logo" width="96" height="96" />
 
   <h1>Tequity</h1>
 
