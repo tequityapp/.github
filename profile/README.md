@@ -1,13 +1,14 @@
 <!--
   Tequity organization profile — rendered at https://github.com/tequityapp
-  Provenance: branding (logo, magenta #E2187D, dark) from tequity.site and the
-  tequity-landing repo; copy anchored on the site's verified <title>Tequity</title>
-  and meta description "Tequity - Secure Data Rooms" plus secure-data-room category
-  norms. Replace the body copy below with exact marketing copy from tequity.site
-  when it is finalized. Structure mirrors verjson/.github/profile/README.md.
+  Provenance: header logo is the current Tequity mark hosted at tequity.app;
+  magenta #E2187D / dark styling from tequity.site and the tequity-landing repo;
+  copy anchored on the site's verified <title>Tequity</title> and meta description
+  "Tequity - Secure Data Rooms" plus secure-data-room category norms. Replace the
+  body copy below with exact marketing copy from tequity.site when it is finalized.
+  Structure mirrors verjson/.github/profile/README.md.
 -->
 <div align="center">
-  <img src="./assets/logo.svg" alt="Tequity logo" width="96" height="96" />
+  <img src="https://tequity.app/lovable-uploads/f3543bb6-616d-46d6-8edc-c5ad97a576ec.png" alt="Tequity logo" width="96" height="96" />
 
   <h1>Tequity</h1>
 
